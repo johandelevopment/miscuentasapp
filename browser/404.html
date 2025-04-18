@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      // Redirige todas las rutas al index.html (para apps Angular SPA)
+      sessionStorage.redirect = location.pathname;
+      location.replace('/miscuentasapp/');
+    </script>
+  </head>
+  <body></body>
+</html>
